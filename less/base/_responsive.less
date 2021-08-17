@@ -1,0 +1,205 @@
+@media only screen and (max-width: 1200px) {
+    
+}
+@media only screen and (max-width: 1170px) {
+    /* Header */
+    .header {
+        .navbar-icon {
+            display: block;
+            font-size: 30px;
+            text-align: center;
+            padding: 13px;
+            color: @main-color;
+            
+        }
+        .navbar{
+            &-menu {
+                display: none;
+            }
+            &-tools {
+                display: none;
+            }
+        }
+        .navbar-menu-res {
+            .tools-res {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .tools-item {
+                    padding: 2%;
+                }
+            }
+            .menu-res {
+                display: block;
+                text-align: center;
+                .navbar-item {
+                    padding: 2%;
+                }
+            }
+        }
+    }
+    /* Banner */
+    .banner {
+        overflow: hidden;
+        .banner-inner {
+            flex-direction: column;
+            transform: translateX(-7px);
+        }
+        .text-banner {
+            padding: 5%;
+            max-width: 90%;
+            text-align: center;
+        }
+        .model-banner {
+            margin-top: -12%;
+            img {
+                height: 300px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1024px) {
+    /* Product */
+    .product {
+        &-item {
+            width: calc(33.3333% - 15px);
+        }
+    }
+    /* Brain */
+    .brand {
+        &-item {
+            width: 33.3333%;
+            padding-bottom: 15px;
+        }
+    }
+    /* Colum Content */
+    .footer {
+        &-content {
+            .col-content {
+                width: 50%;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    /* Category */
+    .category {
+        .cat-item {
+            width: 50%;
+            border: solid #0000001c 1px;
+        }
+    }
+}
+@media only screen and (max-width: 576px) {
+    /* Banner */
+    .banner {
+        .banner-inner {
+            transform: translateX(-7px);
+        }
+        .text-banner {
+            .title-banner {
+                .font-bold(38px);
+            }
+            .s-title-banner {
+                .font-bold(25px);
+            }
+        }
+        .model-banner {
+            margin-top: -12%;
+            img {
+                height: 320px;
+            }
+        }
+    }
+    /* Title Main */
+    .title-main {
+        display: none;
+    }
+    .title-main-res {
+        padding: 15px;
+        border-bottom: 2px solid #ddd;
+        display: block;
+        .select {
+            padding: 5px;
+            border: none;
+            outline: none;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .select-selected {
+            background-color: rgb(0, 0, 0);
+          }
+    }
+    /* Product */
+    .product {
+        &-item {
+            width: calc(50% - 15px);
+        }
+    }
+}
+@media only screen and (max-width: 480px) {
+    .banner {
+        .model-banner {
+            margin-top: -12%;
+            img {
+                height: 290px;
+            }
+        }
+    }
+    /* Category */
+    .category {
+        .cat-item {
+            width: 100%;
+        }
+    }
+    /* Product */
+    .product {
+        &-item {
+            width: calc(100% - 15px);
+        }
+    }
+    /* Brain */
+    .brand {
+        &-item {
+            width: 50%;
+            padding-bottom: 15px;
+        }
+    }
+    /* Colum Content */
+    .footer {
+        &-content {
+            .col-content {
+                width: 100%;
+            }
+        }
+    }
+}
+@media only screen and (max-width:  375px) {
+    /* Banner */
+    .banner {
+        .banner-inner {
+            transform: translateX(-7px);
+        }
+        .text-banner {
+            .title-banner {
+                .font-bold(30px);
+            }
+            .s-title-banner {
+                .font-bold(20px);
+            }
+        }
+        .model-banner {
+            margin-top: -12%;
+            img {
+                height: 300px;
+            }
+        }
+    }
+    /* Brain */
+    .brand {
+        &-item {
+            width: 100%;
+            padding-bottom: 15px;
+        }
+    }
+}

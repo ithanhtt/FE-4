@@ -1,0 +1,89 @@
+/* Banner */
+.banner {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 950px;
+    .banner-inner {
+        .flex();
+        padding-left: 13px;
+    }
+    .text-banner {
+        color: @main-color;
+        margin-top: 100px;
+        max-width: 45%;
+        .title-banner {
+            .font-bold(60px);
+            margin-bottom: 35px;
+        }
+        .s-title-banner {
+            .font-bold(40px);
+            margin-bottom: 40px;
+        }
+        .deltai-banner {
+            font-weight: 400;
+            font-size: 14px;
+            margin-bottom: 60px;
+        }
+        .button-banner {
+            border: 2px solid @main-color;
+            max-width: 85px;
+            max-height: 50px;
+            padding: 20px 45px;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+        .button-banner:hover {
+            border-radius: 15px;
+            transition: 0.5s;
+        }
+    }
+    .model-banner {
+        margin-top: 50px;
+        margin-right: 13px;
+        transform: translateY(140px);
+    }
+}
+/* Category Home */
+.category {
+    transform: translateY(-75px);
+    .row {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .cat-item {
+        .col(33.3333%);
+        height: 225px;
+        &-img {
+            img {
+                width: 100%;
+                height: 225px;
+            }
+        }
+        &-content {
+            width: 100%;
+            height: 100%;
+            max-width: 100%;
+            max-height: 100%;
+            text-align: center;
+            padding: 8%;
+            background-color: @main-color;
+            box-sizing: border-box;
+            .cat-icon {
+                width: 60px;
+                height: 70px;
+            }
+            .cat-title {
+                text-transform: uppercase;
+                .font-bold(18px);
+            }
+            .cat-des {
+                font-weight: 400;
+                font-size: 14px;
+                color: @text-des;
+            }
+        }
+    }
+}

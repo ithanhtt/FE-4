@@ -1,0 +1,14 @@
+.slider .slick-prev {
+  left: 20px;
+  z-index: 10;
+}
+.slider .slick-prev::before {
+  display: none;
+}
+.slider .slick-next {
+  right: 20px;
+}
+.slider .slick-next::before {
+  display: none;
+}
+/*# sourceMappingURL=slider.css.map */
