@@ -17,18 +17,25 @@
         /* Menu Bar */
         &-menu {
             .flex();
+            transform: translateX(-23px);
             .navbar-item {
                 display: inline-block;
-                padding: 25px 25px;
+                padding: 25px 24px;
+            }
+            .navbar-item a:hover {
+                color: @select-color;
             }
         }
         /* Tools Bar */
         &-tools {
             .flex();
             .between-item {
-                padding: 0 13px;
+                padding: 0 25px;
                 color: @main-color;
                 font-weight: 300;
+            }
+            a:hover {
+                color: @select-color;
             }
         }
     }

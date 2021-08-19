@@ -28,6 +28,9 @@
                 .text-footer();
                 padding: 0 15px;
             }
+            .is:hover {
+                color: @main-color;
+            }
         }
     }
     /* Colum Content */
@@ -36,16 +39,19 @@
         .col-content {
             .col(25%);
             text-align: left;
-            padding: 10px;
             &-title {
                 .font-bold(18px);
-                margin: 10px 0;
+                margin: 25px 0;
                 color: @main-color;
+                text-transform: uppercase;
             }
             &-item, a {
                 color: @text-des;
                 font-size: 14px;
                 margin: 30px 0;
+            }
+            &-item:hover, a:hover {
+                color: @main-color;
             }
             .fas {
                 padding-right: 10px;
