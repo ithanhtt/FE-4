@@ -47,6 +47,7 @@ ul li {
   flex-wrap: wrap;
   width: 100%;
   box-sizing: border-box;
+  padding: 0 -15px;
 }
 body {
   font-family: 'Poppins';
@@ -112,7 +113,7 @@ body {
 }
 /* Banner */
 .banner {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/Background.jpg');
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/Background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   top: 0;
@@ -194,6 +195,9 @@ body {
   width: 60px;
   height: 70px;
 }
+.category .cat-item-content .cat-icon img {
+  text-align: center;
+}
 .category .cat-item-content .cat-title {
   text-transform: uppercase;
   font-weight: 600;
@@ -204,6 +208,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   color: #777;
+  padding: 5px;
 }
 /* Title Main Content */
 .title-main ul {
@@ -233,8 +238,7 @@ body {
   margin: 15px -15px;
 }
 .product-item:hover .border-box {
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  padding: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
 }
 .product-item:hover .action li {
   visibility: visible;
@@ -244,15 +248,12 @@ body {
   width: 25%;
   box-sizing: border-box;
   background-color: #fff;
-  padding: 10px;
-}
-.product-item .border-box {
   padding: 15px;
 }
 .product-item-img {
   position: relative;
   width: 100%;
-  height: 230px;
+  height: 250px;
 }
 .product-item-img img {
   position: absolute;
@@ -263,8 +264,8 @@ body {
 }
 .product-item-img .action {
   position: absolute;
-  top: 5px;
-  right: 5px;
+  top: 25px;
+  right: 15px;
 }
 .product-item-img .action li {
   position: relative;
@@ -278,7 +279,7 @@ body {
   justify-content: center;
   align-items: center;
   border: solid #ddd 1px;
-  border-radius: 5px 0px 5px 0px;
+  border-radius: 5px 0 5px 0;
   visibility: hidden;
   opacity: 0;
   transition: visibility 0.1s, opacity 0.5s linear;
@@ -290,20 +291,21 @@ body {
 .product-item-name {
   color: #000;
   font-size: 14px;
-  padding-top: 30px;
-  padding-left: 20px;
+  padding-top: 15px;
+  padding-left: 30px;
 }
 .product-item-price {
   font-weight: 600;
   font-size: 14px;
-  padding-bottom: 20px;
-  padding-left: 20px;
+  padding-bottom: 40px;
+  padding-left: 30px;
 }
 /* About Us */
 .about-us {
   text-align: center;
   max-width: 95%;
-  padding: 15px;
+  padding: 5px;
+  transform: translateX(30px);
 }
 .about-us-title {
   font-weight: 600;
@@ -331,6 +333,7 @@ body {
   font-weight: 600;
   font-size: 18px;
   text-transform: uppercase;
+  padding: 8px;
 }
 .about-us-des {
   font-size: 14px;
@@ -338,7 +341,8 @@ body {
 }
 /* Slick */
 .slick-dots {
-  transform: translateX(-15px);
+  transform: translateX(-5px);
+  bottom: -50px;
 }
 .slick-dots li.slick-active button:before {
   opacity: 0.75;
@@ -348,12 +352,15 @@ body {
 .slick-dots li button:before {
   font-size: 12px;
 }
+.slick-dots li {
+  margin: 0;
+}
 /* Brand */
 .brand {
   margin: 90px 0;
   border-top: solid #ddd 2px;
-  padding: 20px 0;
-  transform: translateY(50px);
+  padding: 20px 0px;
+  transform: translate(-10px, 50px);
 }
 .brand-item {
   width: 16.6666%;
@@ -377,7 +384,7 @@ body {
   border-bottom: solid #444 2px;
 }
 .footer-info-logo {
-  padding-top: 100px;
+  padding-top: 90px;
 }
 .footer-info-logo img {
   width: 200px;
@@ -417,7 +424,7 @@ body {
 .footer-content .col-content a {
   color: #777;
   font-size: 14px;
-  margin: 30px 0;
+  margin: 25px 0;
 }
 .footer-content .col-content-item:hover,
 .footer-content .col-content a:hover {
@@ -439,7 +446,6 @@ body {
     display: block;
     font-size: 30px;
     text-align: center;
-    padding: 13px;
     color: #fff;
   }
   .header .navbar-logo img {
@@ -450,7 +456,7 @@ body {
     display: none;
   }
   .header .navbar-tools .between-item {
-    padding: 0 5px;
+    padding: 0 10px;
   }
   .header .navbar-menu-res .menu-res {
     display: block;
@@ -562,18 +568,8 @@ body {
     font-weight: 600;
     font-size: 20px;
   }
-  .banner .model-banner {
-    margin-top: -12%;
-  }
-  .banner .model-banner img {
-    height: 300px;
-  }
   .title-main ul li {
-    transform: translateY(15px);
-  }
-  .title-main ul li a {
-    font-weight: 600;
-    font-size: 8px;
+    margin-right: -10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
