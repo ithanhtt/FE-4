@@ -8,10 +8,10 @@
     box-sizing: border-box;
     /* Info */
     &-info {
-        padding-bottom: 50px;
+        padding-bottom: 35px;
         border-bottom: solid #444 2px;
         &-logo {
-            padding-top: 90px;
+            padding-top: 98px;
             img {
                 width: 200px;
                 height: 55px;
@@ -20,13 +20,15 @@
         &-des {
             text-align: center;
             .text-footer();
-            padding: 40px;
+            padding: 29px 200px;
         }
         &-social {
             .is {
+                font-size: 18px;
                 text-align: center;
-                .text-footer();
-                padding: 0 15px;
+                color: @text-des;
+                padding: 20px 21px;
+                transform: translateX(7px);
             }
             .is:hover {
                 color: @main-color;
@@ -35,20 +37,24 @@
     }
     /* Colum Content */
     &-content {
-        margin-top: 40px;
+        .row {
+            width: 102.5%;
+        }
+        margin-top: 45px;
         .col-content {
             .col(25%);
             text-align: left;
             &-title {
                 .font-bold(18px);
-                margin: 25px 0;
+                margin-top: 25px;
+                margin-bottom: 28px;
                 color: @main-color;
                 text-transform: uppercase;
             }
             &-item, a {
                 color: @text-des;
                 font-size: 14px;
-                margin: 25px 0;
+                margin: 19px 0;
             }
             &-item:hover, a:hover {
                 color: @main-color;
@@ -64,6 +70,6 @@
         font-size: 14px;
         color: @text-des;
         text-align: center;
-        padding: 20px;
+        padding: 45px;
     }
 }
