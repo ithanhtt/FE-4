@@ -139,7 +139,7 @@ body {
   font-weight: 600;
   font-size: 60px;
   margin: 0;
-  transform: translateY(5px);
+  transform: translateY(3px);
 }
 .banner .text-banner .s-title-banner {
   font-weight: 600;
@@ -150,8 +150,8 @@ body {
 .banner .text-banner .deltai-banner {
   font-weight: 400;
   font-size: 14px;
-  transform: translateY(3px);
-  margin-bottom: 76px;
+  margin-bottom: 67px;
+  line-height: 24px;
 }
 .banner .text-banner .button-banner {
   border: 2px solid #fff;
@@ -332,6 +332,7 @@ body {
   font-size: 18px;
   color: #777;
   margin: 21px 15%;
+  line-height: 29px;
 }
 .about-us-name {
   font-weight: 600;
@@ -361,16 +362,16 @@ body {
 }
 /* Brand */
 .brand {
-  margin: 95px 0;
+  margin: 91px 0;
   border-top: solid #ddd 2px;
-  padding: 15px 0px;
-  transform: translate(-10px, 50px);
+  padding: 16px 0px;
+  transform: translate(-10px, 52px);
 }
 .brand-item {
   width: 16.6666%;
   text-align: center;
   margin: auto;
-  transform: translateY(27px);
+  transform: translateY(23px);
 }
 .brand-item #brand-1 {
   transform: translateX(-5px);
@@ -407,7 +408,7 @@ body {
   border-bottom: solid #444 2px;
 }
 .footer-info-logo {
-  padding-top: 98px;
+  padding-top: 102px;
 }
 .footer-info-logo img {
   width: 200px;
@@ -423,14 +424,15 @@ body {
   font-size: 18px;
   text-align: center;
   color: #777;
-  padding: 20px 21px;
+  padding: 19px 20.5px;
   transform: translateX(7px);
 }
 .footer-info-social .is:hover {
   color: #fff;
 }
 .footer-content {
-  margin-top: 45px;
+  margin-top: 47px;
+  margin-bottom: 30px;
 }
 .footer-content .row {
   width: 102.5%;
@@ -466,7 +468,7 @@ body {
   font-size: 14px;
   color: #777;
   text-align: center;
-  padding: 45px;
+  padding: 15px;
 }
 @media only screen and (max-width: 1170px) {
   /* Header */

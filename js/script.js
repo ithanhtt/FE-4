@@ -14,7 +14,7 @@ $('.about-us').slick({
     slidesToShow: 1,
     adaptiveHeight: true,
     autoplay: true,
-    autoplaySpeed: 200000,
+    autoplaySpeed: 5000,
 });
 //Tab
 function openCity(evt, productName) {
