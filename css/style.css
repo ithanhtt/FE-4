@@ -307,9 +307,9 @@ body {
 /* About Us */
 .about-us {
   text-align: center;
-  max-width: 95%;
-  padding: 5px;
-  transform: translateX(29px);
+  max-width: 90%;
+  padding: 5px 0;
+  transform: translateX(60px);
 }
 .about-us-title {
   font-weight: 600;
@@ -331,7 +331,7 @@ body {
 .about-us-comment {
   font-size: 18px;
   color: #777;
-  margin: 21px 15%;
+  margin: 21px 14%;
   line-height: 29px;
 }
 .about-us-name {
@@ -511,6 +511,12 @@ body {
   }
   .banner .model-banner {
     display: none;
+  }
+  .about-us-comment {
+    margin: 21px 15%;
+  }
+  .footer-info-des {
+    padding: 29px 0;
   }
 }
 @media only screen and (max-width: 1024px) {
