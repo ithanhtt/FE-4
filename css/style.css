@@ -530,6 +530,9 @@ body {
     padding-bottom: 15px;
   }
   /* Colum Content */
+  .footer-content .row {
+    width: 100%;
+  }
   .footer-content .col-content {
     width: 50%;
   }
